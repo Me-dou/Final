@@ -23,8 +23,8 @@
     border-color: #f1f1f1;
   }
   .carousel-inner img {
-    -webkit-filter: grayscale(20%);
-    filter: grayscale(20%); /* make all photos black and white */ 
+    -webkit-filter: grayscale(90%);
+    filter: grayscale(0%); /* make all photos black and white */ 
     width: 100%; /* Set width to 100% */
     margin: auto;
   }
@@ -108,6 +108,7 @@
   }
   .navbar-nav li a:hover {
     color: #fff !important;
+    list-style: none;
   }
   .navbar-nav li.active a {
     color: #fff !important;
