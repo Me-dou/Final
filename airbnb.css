@@ -23,8 +23,8 @@
     border-color: #f1f1f1;
   }
   .carousel-inner img {
-    -webkit-filter: grayscale(20%);
-    filter: grayscale(20%); /* make all photos black and white */ 
+    -webkit-filter: grayscale(90%);
+    filter: grayscale(0%); /* make all photos black and white */ 
     width: 100%; /* Set width to 100% */
     margin: auto;
   }
@@ -121,6 +121,7 @@
     background-color: #2d2d30;
     color: #f5f5f5;
     padding: 32px;
+    margin: 0;
   }
   footer a {
     color: #f5f5f5;
