@@ -108,6 +108,7 @@
   }
   .navbar-nav li a:hover {
     color: #fff !important;
+    list-style: none;
   }
   .navbar-nav li.active a {
     color: #fff !important;
